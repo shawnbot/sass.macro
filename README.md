@@ -46,11 +46,11 @@ const PrimerCSS = "*{box-sizing:border-box}..."
 ```
 
 ## Sass options
-1. `outputStyle` is always `"compressed"`.
+1. `outputStyle` is always `"compressed"`
 1. `includePaths` is an array of three paths:
-  * The current working directory (`process.cwd()`)
-  * `node_modules` in the current working directory
-  * The directory of the file being parsed
+    * The current working directory (`process.cwd()`)
+    * `node_modules` in the current working directory
+    * The directory of the file being parsed
 
 This include paths configuration allows you to reference files
 relative to the JavaScript source or your project's top-level
