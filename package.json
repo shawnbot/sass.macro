@@ -1,0 +1,20 @@
+{
+  "name": "sass.macro",
+  "version": "0.1.0",
+  "description": "Inline CSS from Sass/SCSS snippets in your JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel-plugin-macros",
+    "sass",
+    "scss"
+  ],
+  "author": "Shawn Allen",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-macros": "^2.4.2",
+    "node-sass": "^4.9.3"
+  }
+}
